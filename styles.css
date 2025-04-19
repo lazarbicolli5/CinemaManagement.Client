@@ -1,0 +1,82 @@
+
+body {
+    background-color: #121212;
+    color: white;
+    background-image: url('images/cinema.avif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.navbar {
+    background-color: #130101 !important;
+}
+
+.navbar-brand {
+    color: #ff4d4d !important;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ff4d4d !important;
+}
+
+
+.form-control {
+    background-color: #1e1e1e;
+    color: rgb(245, 221, 221);
+    border: 1px solid #555;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
+.btn-primary, .btn-danger {
+    margin-left: 5px;
+}
+
+.btn-danger {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+}
+
+
+.list-group-item {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ff4d4d;
+}
